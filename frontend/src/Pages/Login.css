@@ -1,0 +1,82 @@
+/* src/components/SignIn.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.sign-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff8e1;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 1rem;
+}
+
+.sign-box {
+  background-color: white;
+  padding: 2.5rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+  width: 350px;
+}
+
+.sign-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #5e1f12;
+  margin-bottom: 1.5rem;
+}
+
+.sign-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 9999px;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.sign-input:focus {
+  box-shadow: 0 0 0 3px #5e1f12;
+  border-color: #5e1f12;
+}
+
+.sign-button {
+  width: 100%;
+  padding: 0.75rem 0;
+  background-color: #5e1f12;
+  color: white;
+  font-weight: bold;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.sign-button:hover {
+  background-color: #7a2c1c;
+}
+
+.sign-footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.sign-link {
+  color: #5e1f12;
+  text-decoration: none;
+}
+
+.sign-link:hover {
+  text-decoration: underline;
+}
